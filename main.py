@@ -7,9 +7,9 @@ if __name__ == '__main__':
 
     driver.get("https://spvtomske.ru/site/loginAjax")
     login = driver.find_element(By.XPATH, "//input[@placeholder='Имя пользователя']")
-    login.send_keys("olga-m")
+    login.send_keys("")
     password = driver.find_element(By.XPATH, "//input[@placeholder='Пароль']")
-    password.send_keys("2wSxDr5t")
+    password.send_keys("")
     autorize = driver.find_element(By.XPATH, "//input[@value='Авторизоваться']")
     autorize.click()
 
